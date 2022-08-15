@@ -17,6 +17,7 @@ body{
     height: 397px;
     color: white;
     margin-top: 10px;
+    position: relative;
 }
 .header-img{
     width: 162px;
@@ -26,23 +27,21 @@ body{
     background-size: cover;
 }
 .img{
-    position:relative;
-    left:  400px;
+    position:absolute;
+    right: 30px;
     top:30px;
 }
 .header-title{
     width: 540px;
     height: 122px;
-    /* margin-top:180px; */
-    /* margin-left: 30px; */
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 700;
     font-size: 61px;
     line-height: 61px;
     align-items: center;
-    position: relative;
-    top:180px;
+    position: absolute;
+    bottom:30px;
     left: 30px;
     
 }
